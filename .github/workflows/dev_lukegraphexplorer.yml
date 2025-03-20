@@ -71,6 +71,5 @@ jobs:
         uses: azure/webapps-deploy@v3
         with:
           app-name: 'lukegraphexplorer'
-          slot-name: 'Production'
           package: .
           
